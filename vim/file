@@ -1,0 +1,145 @@
+some text
+
+:e! reloads the origianl file without changes from buffer aplied
+~ changes case!!!
+U - undo changes to the last changed line
+
+dw - deletes word + all blank space till the next word
+de - delets only chars in the current word till the end of the word
+
+2r& || --> &&
+4s F* Class someFuncName --> someClassName
+
+
+z +
+zz
+z-
+z.
+
++ first non-blank one the next line
+- first on the prev line
+
+H move to the first top line char
+M move to first char in the middle line of screnn
+L move to first in the last
+
+_ and ^ first non-blank in the line
+n | --> to the column n in the line
+
+( - first chart in the firt line in the prev block
+) - first chart in the firt line in the next block
+    -- They are dot separeted sentence
+
+[[ ]] and gg G is there any difference?
+
+/pattern search forward
+?pattern search backward
+
+d/
+d?
+c/
+c?
+
+f and F
+t and T
+; repeat search
+, repeat search in the oposite direction
+
+df and dF
+dt and dT
+y + f and T
+
+G
+`` - go to last position till current (n)G
+
+vim filename -c 890 --> open filename on line 890
+-c /pattern --> first pattern found
+
+
+" -registers
+"dy} - yank into register 'd' y}
+
+m letter creates mark
+you can do things like d'marko
+
+
+C-^ or C-6 switching between two last files
+
+:help s_flags --> learn
+
+:set all to check what si being used
+
+% --> jump between ( ) { } [ ]
+
+n CTRL+End --> last char on the line n
+number % --> GO to the percent line of the doc 50% ==> in the half of the doc
+
+visual mode
+n aw, n aW
+n iw, n iW
+as, is
+ap, ip
+
+
+n u --> undo n last changes
+n C-r --> redo n last changes
+
+vim -o5 file{1..5} --> opens 5 fiels with horizontal split
+vim -O5 file{1..5} --> opens 5 fiels with vertical split
+
+
+CTRL-O Insert Normal mode	is typed This is like Normal mode, but after executing one command Vim returns to Insert mode.
+CTRL-O + v|V Insert Visual mode
+
+
+
+If you don’t name your sessions, it’ll be difficult to keep track of what the session contains.
+Sometimes, you may forget you have a project opened, especially if your machine has been running for a few days, weeks, or months.
+You can save time by reattaching your session and avoid created a duplicate.
+
+
+some (asdfasdfasdf)[aasdfasdfasdfasdf]{asdfasdasdfasdfadsf}<asdfadsadsfadsf>"asdfasdfasdfadfs"'asdfasdfasdfadsfdsaf'`asdfasdfasdf`
+more ,asdfasdfasdfasdf , asdfasdf,
+again / asdfasdfa sasdf adsf /
+again \ asdfasdfa sasdf adsf \
+
+
+one two three
+one two three
+
+
+one two three
+one two three
+one two three
+one two three
+one two three
+
+word word word word word word word word word word
+word word word word word word word word word word
+one two three
+one two three
+word word word word word word word word word word
+word word word word word word word word word word
+one two three
+   ww w w word word
+
+
+word
+one two three
+some changes
+****************************************************************************************************some !!!!!!!!!!!!!!!!!!!!
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+some && another
+some && another
+
+0. Zero
+1. Some
+2. Another
+6. More
+
+some not another
+some not anothersome not not not not not another
+some not another-word

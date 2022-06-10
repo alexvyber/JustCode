@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Currying + Closure</title>
+  </head>
+  <body>
+    <script>
+      // let total_cost = 0
+      // function add_cost(single_cost){
+      //   total_cost = total_cost + single_cost
+      //   console.log('Total Cost: '+total_cost)
+      // }
+      function curry_cost(initial_total) {
+        let total_cost = initial_total;
+        return function (single_cost) {
+          total_cost = total_cost + single_cost;
+          console.log("Total cost: " + total_cost);
+        };
+      }
+      let step1 = curry_cost(0);
+      step1(100);
+      step1(200);
+      step1(300);
+      let step2 = curry_cost(9);
+      step2(100);
+      step2(200);
+      step2(300);
+    </script>
+  </body>
+</html>

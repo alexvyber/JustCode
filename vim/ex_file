@@ -1,0 +1,77 @@
+    -- They are dot separeted sentence
+
+[[ ]] and gg G is there any difference?
+
+/pattern search forward
+?pattern search backward
+
+d/
+d?
+c/
+c?
+
+f and F
+t and T
+; repeat search
+, repeat search in the oposite direction
+
+df and dF
+dt and dT
+y + f and T
+
+G
+`` - go to last position till current (n)G
+
+vim filename -c 890 --> open filename on line 890
+-c /pattern --> first pattern found
+
+
+" -registers
+"dy} - yank into register 'd' y}
+
+m letter creates mark
+you can do things like d'marko
+
+
+
+
+If you don’t name your sessions, it’ll be difficult to keep track of what the session contains.
+Sometimes, you may forget you have a project opened, especially if your machine has been running for a few days, weeks, or months.
+You can save time by reattaching your session and avoid created a duplicate.
+
+
+some (asdfasdfasdf)[aasdfasdfasdfasdf]{asdfasdasdfasdfadsf}<asdfadsadsfadsf>"asdfasdfasdfadfs"'asdfasdfasdfadsfdsaf'`asdfasdfasdf`
+more ,asdfasdfasdfasdf , asdfasdf,
+again / asdfasdfa sasdf adsf /
+again \ asdfasdfa sasdf adsf \
+
+
+OOOOOOOOOOOOOOOOOOOOOOOOOOOONNNNNNNNNNNNNNNNNNNNNNEEEEEEEEEEEEEEEEEEEEEEEEEE two three
+OOOOOOOOOOOOOOOOOOOOOOOOOOOONNNNNNNNNNNNNNNNNNNNNNEEEEEEEEEEEEEEEEEEEEEEEEEE two three
+
+
+word word word word word word word word word word
+word word word word word word word word word word
+OOOOOOOOOOOOOOOOOOOOOOOOOOOONNNNNNNNNNNNNNNNNNNNNNEEEEEEEEEEEEEEEEEEEEEEEEEE two three
+OOOOOOOOOOOOOOOOOOOOOOOOOOOONNNNNNNNNNNNNNNNNNNNNNEEEEEEEEEEEEEEEEEEEEEEEEEE two three
+word word word word word word word word word word
+word word word word word word word word word word
+OOOOOOOOOOOOOOOOOOOOOOOOOOOONNNNNNNNNNNNNNNNNNNNNNEEEEEEEEEEEEEEEEEEEEEEEEEE two three
+   ww w w word word
+
+
+word
+OOOOOOOOOOOOOOOOOOOOOOOOOOOONNNNNNNNNNNNNNNNNNNNNNEEEEEEEEEEEEEEEEEEEEEEEEEE two three
+some changes
+****************************************************************************************************some !!!!!!!!!!!!!!!!!!!!
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+some && another
+some && another
+
+
+some not another
+some not another-word
+some not anothersome not not not not not another

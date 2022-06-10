@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Function</title>
+  </head>
+  <body>
+    <script>
+      // console.log(test)
+      // test()
+      // var test = 'hello'
+      // function test(){
+      //     console.log('test')
+      // }
+
+      // console.log(test)
+
+      // function outer(a){
+      //     //console.log(a)
+      //     let a = 'var A'
+      //     function t(){
+      //         console.log('inner FUNC a')
+      //     }
+      //     console.log(a)
+      // }
+
+      // outer('arg. val.')
+      let obj = { title: "obj" };
+      // function test(){
+      //     console.log(this)
+      // }
+
+      // let newfunc = test.bind(obj)
+
+      // function test(a,b){
+      //     console.log(a,b)
+      // }
+
+      // let nt = test.bind(obj,1)
+      // nt(2)
+
+      // recusrion for anonymous function
+      function outer(a, b, c) {
+        // console.log(arguments.callee)
+        // console.log(arguments)
+        console.log(this.name);
+      }
+      outer();
+    </script>
+  </body>
+</html>

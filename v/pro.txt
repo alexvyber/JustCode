@@ -1,0 +1,11 @@
+            20          0.027ms           1361ns new_array_from_c_array 
+             1          0.009ms           8501ns println 
+             1          0.008ms           8391ns _writeln_to_fd 
+             1          0.008ms           7881ns _write_buf_to_fd 
+             2          0.000ms            175ns _v_malloc 
+            20          0.014ms            717ns vcalloc 
+             1          0.000ms            150ns _v_free 
+             1          0.001ms            530ns memdup 
+             1          0.000ms             60ns builtin_init 
+            20          0.002ms             84ns vmemcpy 
+             1          0.010ms          10321ns main__main 

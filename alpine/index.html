@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alpine</title>
+    <script src="https://unpkg.com/alpinejs" defer></script>
+  </head>
+  <body>
+    <div x-data="{ shit: 'pussy', isShit: false}">
+      <button x-on:click="isShit = !isShit">Toggle</button>
+      <h1 x-text="shit" x-show="isShit"></h1>
+    </div>
+    <main x-data="{ num: 0 }">
+      <h1 x-text="num"></h1>
+      <h1 x-text="num * 2"></h1>
+      <h2 x-show="num >= 10" x-text="'you\'re pussy'"></h2>
+      <button x-on:click="num++">inc</button>
+      <button x-on:click="num--">dec</button>
+    </main>
+    <form
+      x-data="{name: '', up(){ this.name = this.name.toUpperCase()}, down(){ this.name = this.name.toLowerCase()}}"
+      @submit.prevent="console.log(name)"
+      style="padding-top: 30px"
+    >
+      <input type="text" x-model="name" />
+      <p x-text="name"></p>
+      <button type="submit">Submit</button>
+      <button @click="up">Sets go up</button>
+      <button @click="down">Down stupid bitch!</button>
+    </form>
+    <!-- <form @submit.prevent="console.log('submitted')">
+      <button>Submit</button>
+    </form> -->
+  </body>
+</html>
